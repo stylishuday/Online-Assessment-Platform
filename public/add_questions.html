@@ -17,12 +17,12 @@
                 <label for=""> Question </label>
                 <input type="text" name="" id="question" required>
 
-                <label for=""> Enter Options</label>
-                <input style="width: 50%;" type="text" name="" id="options" required>
+                <label for=""> Enter Options (Seperated by ",")</label>
+                <input style="width: 50%;" type="text" name="" id="options" placeholder="Option1,Option2,Option3,Option4" required>
 
                 <label for="">Correct Option</label>
-                <input style="width: 10%;" type="text" name="" id="correctindex" required>
-
+                <input style="width: 10%;" type="text" name="" id="correctindex" pattern="[1-4]{1}"  required>
+                
                 <button id="submit-button" type="submit">Submit</button>
             </form>
         </div>
