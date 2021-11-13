@@ -8,10 +8,13 @@
         sans-serif;
 }
 
+body {
+    background: url("../img/123.jpg") no-repeat center;
+    background-size: 120% 100vh;
+}
+
 #container {
-    background: url("../img/back.jpg");
-    width: 100vw;
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
