@@ -42,9 +42,11 @@ function input_change() {
 
 function otp_check(user_otp) {
     if (user_otp == correctotp.otp) {
+            sessionStorage.setItem("access", "yes");
         window.location.href = '/adminMainPage.html'
     }
-    else{
+    else {
+       sessionStorage.setItem("access", "no");
         alert("Please Enter valid otp");
     }
 }

@@ -29,6 +29,7 @@ let questions;
 async function data_request() {
     const response = await fetch('/api/' + testid);
     let json = await response.json();
+    console.log(json);
     set_question(json);
 
 };

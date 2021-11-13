@@ -2,7 +2,9 @@
 const express = require('express');
 const path = require('path');
 const Datastore = require('nedb');
+const jwt = require('jsonwebtoken')
 const {Auth} = require("two-step-auth");
+const { copyFileSync } = require('fs');
 
 
 const app = express();
@@ -42,6 +44,7 @@ function randomize(data1, number_of_ques) {
     while (i < number_of_ques) {
         let random = Math.floor(Math.random() * num.length)
         let indx = num.splice(random, 1);
+        
         questions.push(data1[indx[0]]);
         i++;
     }
@@ -125,6 +128,17 @@ app.post('/otp', (req, res) => {
         res.json(res1);
     });
 });
+
+app.post('/api/token', (req, res) => {
+    const user = {
+        id: 1,
+        username: 'brad',
+        email: 'brad@gmail.com'
+    }
+    const token = jwt.sign({ user: user }, 'secretkey');
+    res.header('auth-token', token).send(token);
+});
+
 
 // inserting scores to database
 app.post('/result', (request, response) => {
