@@ -1,13 +1,3 @@
-function access_checker() {
-    document.getElementsByTagName("html")[0].style.visibility = "hidden";
-    let name = sessionStorage.getItem("name");
-    console.log(name);
-    if (name = "null") {
-        window.location.href = '/access_denied.html'
-    } else {
-        document.getElementsByTagName("html")[0].style.visibility = "visible";
-
-
         const name_text = document.getElementById('score-text1');
         const score_text = document.getElementById('score-text2');
 
@@ -53,7 +43,4 @@ function access_checker() {
             data_send();
         }
 
-    }
-}
-
-access_checker();
+  
