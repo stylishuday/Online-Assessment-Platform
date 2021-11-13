@@ -1,7 +1,7 @@
 ## ONLINE ASSESSMENT PROJECT
 This is an online assessment platform made by Rituraj Rajput, Aditi Dahare and Ayushi Singh Bhadauria as the final project of walkover University Program. This is a robust online testing platform for conducting remote examinations. This web application is made using HTML5, CSS3, JavaScript,Bootstrap,Bulma as frontend and  Node.js, Express.js as backend and NeDB as database.
 
-A deployed version can be checked here :  http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbeanstalk.com//index.html?testid=id1633432845540&u5&t120
+A deployed version can be checked here :  https://jazzy-sable-elm.glitch.me/index.html?testid=id1633432845540&u5&t120
 
 Demo Video :
 
@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/71482941/136176167-0d9dd7be-13b3-4198-
 
 ## Admin Panel:
 
-Link of admin Login: http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbeanstalk.com/adminLogin.html
+Link of admin Login: https://jazzy-sable-elm.glitch.me/adminLogin.html
 
  - Firstly user have to login to admin panel with valid Email to prove his authenticity.
  - A OTP will be sent to his Email.
@@ -40,7 +40,7 @@ Link of admin Login: http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbe
  - The admin can Create test by entering no. of questions which will appear in test and time limit for the test.
  - A unique link and unique id will be generated based on admin's inputs.
 
- - Demo Test Link - http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbeanstalk.com//index.html?testid=id1633432845540&u5&t120
+ - Demo Test Link - https://jazzy-sable-elm.glitch.me/index.html?testid=id1633432845540&u5&t120
 
 
 ## Additional Features: 
@@ -84,8 +84,8 @@ Link of admin Login: http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbe
 For Deployment, we have used `Amazon AWS Cloud` as a platform. 
 
 The application is hosted on an `Elastic Beanstalk` environment.
-| Live Project|[`Click here`](http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbeanstalk.com//index.html?testid=id1633432845540&u5&t120)| 
-| Admin-Login |[`Click here`](http://walkoverquizapp-env.eba-naqqkjp9.us-east-2.elasticbeanstalk.com/adminLogin.html) |
+| Live Project|[`Click here`](https://jazzy-sable-elm.glitch.me/index.html?testid=id1633432845540&u5&t120)| 
+| Admin-Login |[`Click here`](https://jazzy-sable-elm.glitch.me/adminLogin.html) |
 
 ## CI/CD setup
 1. Create a GitHub repository. You may initialize it with a README, license, .gitignore
@@ -112,7 +112,7 @@ The application is hosted on an `Elastic Beanstalk` environment.
 Steps to setup and run our project locally on your machine
 1. Install git on your machine if not installed already <br>
 2. Clone the repository <br>
-`git clone   https://github.com/iamrituraj/quiz-app.git`
+`git clone   https://github.com/iamrituraj/quiz1.git`
 >
 3. Go inside the cloned directory on the terminal.
 4. Install the required packages by command <br>
