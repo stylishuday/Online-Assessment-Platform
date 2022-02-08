@@ -67,12 +67,6 @@ Link of admin Login: https://jazzy-sable-elm.glitch.me/adminLogin.html
    8. `Create Test Page` - The admin can Create test by entering no. of questions which will appear in test and time limit for the test through    this page.
    9. `Add Question Page` - admin Can add questions in the question pool through this page.
 
-
-## Developers
-1. Rituraj Rajput [https://github.com/iamrituraj]
-2. Aditi Dahare [https://github.com/Aditi-1111]
-3. Ayushi Singh Bhadauria [https://github.com/ayushisingh-web-cell]
-
 ## Tech Stack Used: 
 1. Frontend -HTML5, CSS3, JavaScript, Ajax and Bootstrap, Bulma.
 2. Backend - Node.js, Express.js (Node.js framework).
