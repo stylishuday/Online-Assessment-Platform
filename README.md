@@ -1,5 +1,5 @@
 ## ONLINE ASSESSMENT PROJECT
-This is an online assessment platform made by Rituraj Rajput, Aditi Dahare and Ayushi Singh Bhadauria as the final project of walkover University Program. This is a robust online testing platform for conducting remote examinations. This web application is made using HTML5, CSS3, JavaScript,Bootstrap,Bulma as frontend and  Node.js, Express.js as backend and NeDB as database.
+This is an online assessment platform made by Rituraj Rajput. This web application is made using HTML5, CSS3, JavaScript,Bootstrap,Bulma as frontend and  Node.js, Express.js as backend and NeDB as database.
 
 A deployed version can be checked here :  https://jazzy-sable-elm.glitch.me/index.html?testid=id1633432845540&u5&t120
 
